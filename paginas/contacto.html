@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Beauty Center - Contacto </title>
+    <link rel="shortcut icon" href="../imagenes/favicon.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@450&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="top-header">
+        <span id="informacion-clima"></span>
+        <a href="https://wa.me/+5491123036900?text=Hola%20deseo%20realizar%20una%20consulta" target="_blank"><i class="fa-brands fa-whatsapp fa-lg" style="color: #000000;"></i> 15-5555-6464</a>
+        <a href="mailto:beautycenter@spa.com?subject=Consulta%20servicios%20de%20spa" target="_blank"><i class="fa-regular fa-envelope fa-lg" style="color: #090a0c;"></i> info@beautycenter.com</a>
+    </div>
+
+    <header>
+        <div>
+           <a href="../index.html"><img src="../imagenes/Logo4.png" alt="logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="spa_masajes.html">Spa y Masajes</a></li>
+                <li><a href="manicura.html">Manicura</a></li>
+                <li><a href="faciales.html">Faciales</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="presentacion">
+        <figure class="img-presentacion">
+            <img src="../imagenes/contacto1.jpg" alt="spa1">
+        </figure>
+        <div class="contenido-presentacion">
+            <h1>CONTACTO</h1>
+            <p class="texto-presentacion">Para comunicarte con nosotros, solicitar turnos o consultar por productos envianos un mensaje desde el siguiente formulario y nos comunicaremos a la brevedad.</p>
+        </div>
+    </main>
+
+    <!--FORMULARIO DE CONTACTO-->
+
+    <section id="contacto">
+        <form id="formulario" method="get">
+            <div id="datos-msj">
+                <fieldset id="form-datos"> <!--define una sección dentro de un formulario-->
+                    <legend>Datos personales:</legend> <!--nombre de la sección-->
+                    <div class="campo">
+                        <label for="apellido">Apellido</label> 
+                        <input type="text" name="apellido" id="apellido" required>
+                    </div>
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" required>
+                    </div>
+                    <div class="campo">
+                        <label for="telefono">Teléfono</label>
+                        <input type="number" name="telefono" id="telefono" required>
+                    </div>
+                    <div class="campo">
+                        <label for="mail">e-mail</label>
+                        <input type="email" name="mail" id="mail" required>
+                    </div>
+                </fieldset>
+
+                <fieldset id="form-mensaje">
+                    <legend>Mensaje</legend>
+                    <textarea name="comentarios" id="comentarios" cols="66" rows="6" placeholder="Dejanos tu consulta" required></textarea>
+                </fieldset>
+            </div>
+            <div id="contenedor-enviar">
+                <button type="submit" id="enviar">Enviar Mensaje</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="sucursales">
+        <h2>Buscá tu sucursal más cercana</h2>
+        <ul>
+            <div class="suc">
+                <li>Recoleta</li>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.1266253894682!2d-58.39735833036322!3d-34.59135159830993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca982ff2d8eb%3A0x5b7659efa2466475!2sPe%C3%B1a%202200%2C%20C1114%20CABA!5e0!3m2!1ses-419!2sar!4v1696258995452!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="suc">
+                <li>Belgrano</li>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d580.8355284394912!2d-58.45501318260599!3d-34.561099933865364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d306145feb%3A0xeafcaa0954dc6669!2sAv.%20Juramento%202221%2C%20C1428DNK%20CABA!5e0!3m2!1ses-419!2sar!4v1696259081747!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="suc">
+                <li>Villa Crespo</li>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1952.7972694930672!2d-58.440626764599244!3d-34.59909250158312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca74aa998233%3A0x13e35ed12cd4299d!2sMalabia%20355%2C%20C1414DLG%20CABA!5e0!3m2!1ses-419!2sar!4v1696259212624!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </ul>
+    </section>
+
+    <div id="whatsapp-button">
+        <a href="https://wa.me/+5491123036900?text=Hola%20deseo%20realizar%20una%20consulta" target="_blank">
+            <img src="../imagenes/whatsapp.png" alt="WhatsApp">
+          </a>
+    </div>
+
+    <footer>
+        <div id="footer-redes">
+            <h3>Síguenos</h3>
+            <div id="enlaces-redes">
+                <a href="https://wa.me/+5491123036900?text=Hola%20desde%20mi%20sitio%20web" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #fff;"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-2xl" style="color: #fff;"></i></a>
+                <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok fa-2xl" style="color: #fff;"></i></a>
+                <a href="https://www.pinterest.com" target="_blank"><i class="fa-brands fa-pinterest fa-2xl" style="color: #fff;"></i></a>
+            </div>
+        </div>
+        <div id="footer-sucursales">
+            <h3>Sucursales</h3>
+                <ul>
+                    <li>Recoleta: Peña 2200 - CABA</li>
+                    <li>Belgrano: Av. Juramento 2221 - CABA</li>
+                    <li>Villa Crespo: Malabia 355 - CABA</li>
+                </ul>
+        </div>
+        <article>
+            Todos los derechos reservados 2023.
+        </article>
+    </footer>
+
+    <script src="../js/clima.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="https://kit.fontawesome.com/2067fe5f8f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
